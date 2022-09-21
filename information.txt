@@ -1,0 +1,7 @@
+keep in mind that it only matters if the hidden image has an alpha channel.
+if it does, clear the alpha lsb of the bigger image + clear sig alpha bits on hidden and merge images
+
+currently dont store the channel counts separately in read image!!!!!
+
+calculating the scale factor for the hidden image:
+x = big / hidden
